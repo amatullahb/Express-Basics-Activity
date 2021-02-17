@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ATM</title>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <h1>ATM</h1>
+    <form action="http://localhost:5000/balance" method="post">
+        <select name="transaction" id="transaction">
+            <option value="deposit">Deposit</option>
+            <option value="withdraw">Withdraw</option>
+            <input type="text" id="amount" name="amount">
+        </select>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
